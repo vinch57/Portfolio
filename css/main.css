@@ -384,6 +384,26 @@ h4:hover{
 }
 
 
+.portfolio img{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+
+.portfolio img:hover {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    transition-duration: 1s;
+    transition-property: filter;
+}
+
+
+
 #logo img {
   -webkit-transition: -webkit-transform .9s;
   -moz-transition:-moz-transform .9s;       
@@ -393,11 +413,11 @@ h4:hover{
 }
  
 #logo img:hover{
-  -webkit-transform:rotate(180deg); 
-  -moz-transform:rotate(180deg);
-  -o-transform:rotate(180deg); 
-  -ms-transform:rotate(180deg); 
-  transform:rotate(180deg);
+  -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
+  -ms-transform:rotate(360deg); 
+  transform:rotate(360deg);
 }
 
 #article_hub {

@@ -191,10 +191,12 @@ include('include/start.php');
             <button type="button" class=" btn btn-theme">Du 09/05/2016 au 30/06/2016</button>
             <p>Stage de 8 semaines au sein de l'entreprise DM Concept, élaboration d'un script de parsing d'une page web puis envoi des informations collectées vers un serveur, participation à divers projet à savoir Jour De Vélo, rédaction et traduction de documentations utilisateurs pour les modules Prestashop</p>
             <br/>
-            <h3>--_--</h3>
-            <h4>--_--</h4>
-            <button type="button" class=" btn btn-theme">Du -- au --</button>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <button type="button" class=" btn btn-theme">Du 09/01/2017 au 17/02/2017</button>
+            <p>
+                Stage de 6 semaines au sein de l'entreprise DM Concept, réalisation et mise à jour de modules Prestashop,
+                mise à jour de documentations utilisateur, réalisation de vidéos intéractives à l'intention des clients,
+                prise en charge du support client à distance ou directement en entreprise.
+            </p>
             <br/>
         </div>
     </div>

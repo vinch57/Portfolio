@@ -26,7 +26,7 @@ include('include/start.php');
         <br/>
         <br/>
         
-        <a href="raspberry.php"><h4>Lima, le cloud privé pour tous</h4></a>
+        <a href="raspberry.php"><h4>Raspberry</h4></a>
         <figure>
             <section class="veille">
                 <img class="arrondie" src="img/raspberry.jpeg" alt="">
