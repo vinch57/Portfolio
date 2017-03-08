@@ -7,9 +7,8 @@ include('include/start.php')
 <div id="Introduction">
     <div class="container">
         <div class="row">
-            <h1>Bonjour et bienvenue sur mon portfolio !</h1>
+            <h1>Bonjour et bienvenue !</h1>
             <br>
-            <h3>Mon nom est Vincent Klein, cliquez sur un lien pour démarrer !</h3>
             <br>
             <br>
             <div class="col-lg-12">

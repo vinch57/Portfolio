@@ -1,5 +1,6 @@
 <?php
 include('include/start.php');
+include('include/fct.inc.php');
 ?>
 
 <!-- Veille technologique -->
@@ -17,23 +18,17 @@ include('include/start.php');
         <a href="lima.php"><h4>Lima, le cloud privé pour tous</h4></a>
         <figure>
             <section class="veille">
-                <img class="arrondie" src="img/limacloud.jpg" alt="">
+                <a href="lima.php"><img class="arrondie" src="img/limacloud.jpg" alt=""></a>
             </section>
-            <figcaption>
-                <a data-toggle="modal" data-target="#myModal" class="btn btn-theme">Aperçu</a>
-            </figcaption>
         </figure>
         <br/>
         <br/>
         
-        <a href="raspberry.php"><h4>Raspberry</h4></a>
+        <a href="raspberry.php"><h4>Le nouveau kit officiel Raspberry Pi</h4></a>
         <figure>
             <section class="veille">
-                <img class="arrondie" src="img/raspberry.jpeg" alt="">
+                <a href="raspberry.php"><img class="arrondie" src="img/raspberry.jpeg" alt=""></a>
             </section>
-            <figcaption>
-                <a data-toggle="modal" data-target="#myModal" class="btn btn-theme">Aperçu</a>
-            </figcaption>
         </figure>
         <br/>
         <br/>
@@ -41,14 +36,24 @@ include('include/start.php');
         <a href="crgen4.php"><h4>Le grand Est numérique, 4ème édition !</h4></a>
         <figure>
             <section class="veille">
-                <img class="arrondie" src="img/gen4logo.jpg" alt="">
+                <a href="crgen4.php"><img class="arrondie" src="img/gen4logo.jpg" alt=""></a>
             </section>
-            <figcaption>
-                <a data-toggle="modal" data-target="#myModal" class="btn btn-theme">Aperçu</a>
-            </figcaption>
         </figure>
-
     </center>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        
+        <div class="col-xs-5">
+        </div>
+        <div id="logoshake" class="col-xs-2">
+            <img src="img/rsslogo.png" alt="logo RSS"/>
+        </div>
+        <div class="col-xs-5">
+            <iframe frameborder="0" src="flux.php" scrolling="yes" height="360" width="550"></iframe>
+        </div>
+    </div>
 </div>
 
 

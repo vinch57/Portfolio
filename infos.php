@@ -67,42 +67,42 @@ include('include/start.php');
             <br/>
             <h5>Web design</h5>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50" style="width: 25%">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50" style="width: 25%">
                     <span class="sr-only"></span>
                 </div>
             </div>
             <br/>
             <h5>HTML/CSS</h5>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%">
                     <span class="sr-only"></span>
                 </div>
             </div>
             <br/>
             <h5>BootStrap</h5>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width: 30%">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width: 30%">
                     <span class="sr-only"></span>
                 </div>
             </div>
             <br/>
             <h5>JavaScript</h5>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width: 30%">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width: 30%">
                     <span class="sr-only"></span>
                 </div>
             </div>
             <br/>
             <h5>PHP</h5>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%">
                     <span class="sr-only"></span>
                 </div>
             </div>
             <br/>
             <h5>Prestashop</h5>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="35" style="width: 35%">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="35" style="width: 35%">
                     <span class="sr-only"></span>
                 </div>
             </div>
@@ -110,14 +110,14 @@ include('include/start.php');
             <h4>Compétences applications desktop</h4>
             <h5>C#</h5>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width: 60%">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width: 60%">
                     <span class="sr-only"></span>
                 </div>
             </div>
             <br/>
             <h5>Java</h5>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="40" style="width: 40%">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="40" style="width: 40%">
                     <span class="sr-only"></span>
                 </div>
             </div>

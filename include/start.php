@@ -1,6 +1,6 @@
 <html class="no-js" lang="">
     <head>
-        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Vincent Klein - Developper</title>
         <meta name="description" content="">
