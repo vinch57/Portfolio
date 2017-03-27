@@ -1,6 +1,5 @@
 <?php
 include('include/start.php');
-include('include/fct.inc.php');
 ?>
 
 <!-- Veille technologique -->
@@ -8,7 +7,7 @@ include('include/fct.inc.php');
 <div id="propos_hub">
     <div class="container">
         <div class="row">
-            <h3>Les articles de veille technologique</h3>
+            <h3>Ma recherche en matière de veille technologique</h3>
         </div>
     </div>
 </div>
@@ -39,6 +38,17 @@ include('include/fct.inc.php');
                 <a href="crgen4.php"><img class="arrondie" src="img/gen4logo.jpg" alt=""></a>
             </section>
         </figure>
+        <br/>
+        <br/>
+        
+        <a href="php7.php"><h4>De PHP 5 à PHP 7</h4></a>
+        <figure>
+            <section class="veille">
+                <a href="php7.php"><img class="arrondie" src="img/php7.png" alt=""></a>
+            </section>
+        </figure>
+        <br/>
+        <br/>
     </center>
     <br/>
     <br/>

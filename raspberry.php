@@ -1,6 +1,5 @@
 <?php
 include('include/start.php');
-include('include/fct.inc.php');
 ?>
 
 <!-- Veille technologique -->
