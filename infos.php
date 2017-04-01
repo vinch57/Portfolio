@@ -102,6 +102,13 @@ include('include/start.php');
             <br/>
             <h5>Prestashop</h5>
             <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="25" style="width: 25%">
+                    <span class="sr-only"></span>
+                </div>
+            </div>
+            <br/>
+            <h5>Symfony</h5>
+            <div class="progress">
                 <div class="progress-bar progress-bar-info progress-bar active" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="35" style="width: 35%">
                     <span class="sr-only"></span>
                 </div>

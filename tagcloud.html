@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tag Cloud</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.tagSphere.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#tagsphere').tagSphere({
+                    height: 320,
+                    width: 380,
+                    slower: 0.80,
+                    radius: 120,
+                    timer: 50,
+                    fontMultiplier: 20
+                });
+            });
+
+        </script>
+
+        <style type="text/css">
+            body{
+            }
+            #tagsphere{				
+                height: 320px; width: 380px; 
+                padding: 10px;
+                margin: 10px;
+                margin: 0 auto;
+            }
+            ul li a, ul li a:visited{
+                color: #337ab7;
+                text-decoration: none;
+                font-family: "Arial Black", Arial, Verdana, sans-serif;
+                font-size: 16px;
+            }
+            ul li a:hover, ul li.link1 a:hover, ul li.link2 a:hover, ul li.link3 a:hover{
+                color: #00b36b;
+            }
+        </style>
+
+
+    </head>
+    <body>
+        <div id="tagsphere">
+            <ul>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">Prestashop</a></li>
+                <li><a href="#">openSUSE</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">Cloud</a></li>
+                <li><a href="#">MySQL</a></li>
+                <li><a href="#">Visual Studio</a></li>
+                <li><a href="#">NetBeans</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Symfony</a></li>
+                <li><a href="#">Drupal</a></li>
+                <li><a href="#">Android</a></li>
+                <li><a href="#">Windows</a></li>
+                <li><a href="#">AJAX</a></li>
+                <li><a href="#">Intel</a></li>
+                <li><a href="#">Serveur</a></li>
+                <li><a href="#">Limonade</a></li>
+                <li><a href="#">Framework</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

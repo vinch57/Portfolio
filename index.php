@@ -27,7 +27,7 @@ include('include/start.php')
                 <p>Après obtention de mon BAC STMG spécialité systèmes d'information de gestion, j'ai ensuite réalisé un BTS Services informatique aux organisations</p>
                 <p>Au cours de cette formation j'ai pu appréhender divers langages ainsi qu'une logique de développement permettant de délivrer un code fiable et compréhensible par les autres développeurs</p>
                 <p>Je suis disponible pour du travail directement et je recherche un poste correspondant à mon cursus</p>
-                <p><button type="button" class="btn btn-info" href="contact.php">J'ai une offre à vous proposer !</button></p>
+                <p><a type="button" class="btn btn-info" href="contact.php">J'ai une offre à vous proposer !</a></p>
             </div>
         </div>
     </div>
@@ -41,19 +41,19 @@ include('include/start.php')
                 <i class="fa fa-heart"></i>
                 <h4>Amoureux de la technologie</h4>
                 <p>Sans cesse à la recherche des évolutions technologiques présentes, suivi des évolutions des CMS les plus célèbres, puissance des machines</p>
-                <p><br/><a href="#" class="btn btn-theme">En savoir plus</a></p>
+                <p><br/><a href="infos.php" class="btn btn-theme">En savoir plus</a></p>
             </div>
             <div class="col-md-4">
                 <i class="fa fa-flask"></i>
                 <h4>Expérimentations</h4>
                 <p>Tests et expérimentations de nouvelles techniques de développement</p>
-                <p><br/><a href="#" class="btn btn-theme">En savoir plus</a></p>
+                <p><br/><a href="infos.php" class="btn btn-theme">En savoir plus</a></p>
             </div>
             <div class="col-md-4">
                 <i class="fa fa-trophy"></i>
                 <h4>Réussir et partager</h4>
                 <p>Utilisation du knowledge management pour la gestion des compétences et leur partage au sein de l'entreprise</p>
-                <p><br/><a href="#" class="btn btn-theme">En savoir plus</a></p>
+                <p><br/><a href="infos.php" class="btn btn-theme">En savoir plus</a></p>
             </div>
         </div>
     </div>

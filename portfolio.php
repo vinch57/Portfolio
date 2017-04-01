@@ -34,7 +34,7 @@ include('include/start.php');
             <div class="grille masque">
                 <figure>
                     <section class="portfolio">
-                        <img class="img-responsive" src="img/bmg.png" alt="">
+                        <a data-toggle="modal" data-target="#myModal"><img class="img-responsive" src="img/bmg.png" alt=""></a>
                     </section>
                     <figcaption>
                         <a data-toggle="modal" data-target="#myModal" class="btn btn-theme">Aperçu</a>
@@ -92,7 +92,7 @@ include('include/start.php');
             <div class="grille masque">
                 <figure>
                     <section class="portfolio">
-                        <img class="img-responsive" src="img/dmconceptlogo.jpg" alt="">
+                        <a data-toggle="modal" data-target="#myModal_C"><img class="img-responsive" src="img/dmconceptlogo.jpg" alt=""></a>
                     </section>
                     
                     <figcaption>
@@ -147,7 +147,7 @@ include('include/start.php');
             <div class="grille masque">
                 <figure>
                     <section class="portfolio">
-                        <img class="img-responsive" src="img/prestonmobile.png" alt="">
+                        <a data-toggle="modal" data-target="#myModal_B"><img class="img-responsive" src="img/prestonmobile.png" alt=""></a>
                     </section>
                     <figcaption>
                         <a data-toggle="modal" data-target="#myModal_B" class="btn btn-theme">Aperçu</a>
@@ -204,7 +204,7 @@ include('include/start.php');
             <div class="grille masque">
                 <figure>
                     <section class="portfolio">
-                        <img class="img-responsive" src="img/gsbfraishomepng.png" alt="">
+                        <a data-toggle="modal" data-target="#myModal_D"><img class="img-responsive" src="img/gsbfraishomepng.png" alt=""></a>
                     </section>
                     <figcaption>
                         <a data-toggle="modal" data-target="#myModal_D" class="btn btn-theme">Aperçu</a>
@@ -220,7 +220,7 @@ include('include/start.php');
                             <h4 class="modal-title centered" id="myModalLabel">Projet GSB Frais</h4>
                         </div>
                         <div class="modal-body">
-                            <h4 class="centered">Fonction au sein du projet</h4>
+                            <h4 class="centered">Aperçu du projet</h4>
                             <img src="img/gsbfraistab.png" alt="">
                             <h5 class="centered">Description du projet</h5>
                             <p>
@@ -283,7 +283,9 @@ include('include/start.php');
         <div class="col-lg-4 col-sm-4">
             <div class="grille masque">
                 <figure>
-                    <img class="img-responsive" src="img/Cover.jpg" alt="">
+                    <section class="portfolio">
+                        <a data-toggle="modal" data-target="#myModal_F"><img class="img-responsive" src="img/ocsglpi.png" alt=""></a>
+                    </section>
                     <figcaption>
                         <a data-toggle="modal" data-target="#myModal_F" class="btn btn-theme">Aperçu</a>
                     </figcaption>
@@ -295,12 +297,38 @@ include('include/start.php');
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title centered" id="myModalLabel">Nom du projet</h4>
+                            <h4 class="modal-title centered" id="myModalLabel">OCS - GLPI</h4>
                         </div>
                         <div class="modal-body">
-                            <h4 class="centered">Fonction au sein du projet</h4>
-                            <img src="img/Cover.jpg" alt="">
+                            <h4 class="centered">Mise en place d'OCS - GLPI</h4>
+                            <img src="img/ocsscreen.png" alt="">
                             <h5 class="centered">Description du projet</h5>
+                            <p>
+                                J'ai installé et mis en place l'utilitaire OCS sur machine virtuelle afin de prendre connaissance et
+                                d'étudier le fonctionnement de l'outil.
+                            </p>
+                            <p>
+                                Il permet d'effectuer diverses tâches liées à la gestion des configurations en entreprise et
+                                donc la gestion des incidents qui pourraient survenir.
+                            </p>
+                            <p>
+                                Opérations réalisées :
+                            </p>
+                            <ul>
+                                <li>Installation d'OCS Inventory NG sur serveur Windows Server 2012 et sur poste client</li>
+                                <li>Utilisation d'OCS Inventory NG (test de remontée d'informations)</li>
+                                <li>Installation de GLPI</li>
+                                <li>Utilisation de GLPI (création d'utilisateurs, tickets d'incidents, ouverture et fermeture des tickets)</li>
+                            </ul>
+                            Activités du référentiel concernées :<br/>
+                            D5.1 - Gestion des configurations
+                            <ul>
+                                <li>A5.1.3 Suivi d’une configuration et de ses éléments</li>
+                                <li>A5.1.5 Évaluation d'un élément de configuration ou d'une configuration</li>
+                                <li>A5.1.6 Évaluation d'un investissement informatique</li>
+                            </ul>
+                            D2.2 - Gestion des incidents et des demandes d’assistance<br/>
+                            D2.3 - Gestion des problèmes et des changement
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
