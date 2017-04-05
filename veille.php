@@ -59,6 +59,15 @@ include('include/start.php');
         <br/>
         <br/>
         
+        <a href="phantomjs.php"><h4>Mettez votre boutique en ligne Prestashop à jour vers la version 1.7 !</h4></a>
+        <figure>
+            <section class="veille">
+                <a href="presta17.php"><img class="arrondie" src="img/ps17.jpg" alt=""></a>
+            </section>
+        </figure>
+        <br/>
+        <br/>
+        
     </center>
     <br/>
     <br/>

@@ -22,15 +22,23 @@ include('include/start.php');
             <span class="fa fa-home"></span> Adresse: 16, rue de la chapelle<br/>
             <span class="fa fa-phone"></span> Téléphone fixe: 0382501939<br/>
             <span class="fa fa-mobile"></span> 0678954266<br/>
-            <span class="fa fa-envelope"></span><a href="#"> vincent.klein124@gmail.com</a><br/>
-            <span class="fa fa-twitter"></span><a href="#"> @vincentklein11</a><br/>
-            <span class="fa fa-facebook"></span><a href="#"> vincent.klein.148</a><br/>
-            <span class="fa fa-code"></span><a href="https://fr.linkedin.com/in/vincent-klein-67aa22134"> LinkedIn<a/>
+            <span class="fa fa-envelope"></span> vincent.klein124@gmail.com<br/>
+            <span class="fa fa-twitter"></span><a href="https://twitter.com/VincentKlein11" target="#"> @vincentklein11</a><br/>
+            <span class="fa fa-facebook"></span><a href="https://www.facebook.com/worstdna.official/" target="#"> vincent.klein.148</a><br/>
+            <span class="fa fa-code"></span><a href="https://fr.linkedin.com/in/vincent-klein-67aa22134" target="#"> LinkedIn</a>
         </div>
         <div class="col-lg-4">
             <h3>Me contacter par email</h3>
             <p>Une question, une idée, des suggestions ? Contactez-moi ici !</p>
-            <p>
+            <?php
+            if (isset($_GET['sent'])) {
+                if ($_GET['sent'] == 'success') {
+                    echo '<div class="alert alert-success">Merci pour votre message !</div>';
+                } else {
+                    echo '<div class="alert alert-danger">Oops ! Une erreur s\'est produite, vérifiez que vous avez bien complété les champs.</div>';
+                }
+            }
+            ?>
             <form class="form-horizontal" role="form" action="scripts/send_mail.php" method="post">
                 <div class="form-group">
                     <label for="inputEmail1" class="col-lg-4 control-label"></label>
@@ -46,9 +54,9 @@ include('include/start.php');
                 </div>
 
                 <div class="form-group">
-                    <label for="text" class="col-lg-4 control-label"></label>
+                    <label for="text2" class="col-lg-4 control-label"></label>
                     <div class="col-lg-10">
-                        <input type="text" class="form-control" id="text1" name="Message" placeholder="Message">
+                        <textarea class="form-control" id="text2" name="Message" placeholder="Message"></textarea>
                     </div>
                 </div>
 
