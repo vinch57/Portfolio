@@ -232,14 +232,22 @@ include('include/start.php');
                                 Moi et mon équipe avons été chargés du développement de diverses fonctionnalités sur 
                             </p>
                             Activités du référentiel concernées:<br/>
-                            - D4.1 -Conception et réalisation d’une solution applicative
                             <ul>
-                                <li>A4.1.3 Conception ou adaptation d’une base de données</li>
-                                <li>A4.1.8 Réalisation des tests nécessaires à la validation d’éléments adaptés ou développés</li>
-                            </ul>
-                            D4.2 - Maintenance d’une solution applicative
-                            <ul>
-                                <li>A4.2.2 - Adaptation d’une solution applicative aux évolutions de ses composants</li>
+                                <li>A1.1.1 Analyse du cahier des charges d'un service à produire</li>
+                                <li>A1.2.4 Détermination des tests nécessaires à la validation d'un service</li>
+                                <li>A1.3.1 Test d'intégration et d'acceptation d'un service</li>
+                                <li>A1.3.4 Déploiement d'un service</li>
+                                <li>A1.4.1 Participation à un projet</li>
+                                <li>A1.4.2 Evaluation des indicateurs de suivi d'un projet et justification des écarts</li>
+                                <li>A1.4.3 Gestion des ressources</li>
+                                <li>A2.3.1 Identification, qualification et évaluation d'un problème</li>
+                                <li>A2.3.2 Proposition d'amélioration d'un service</li>
+                                <li>A4.1.1 Proposition d'une solution applicative</li>
+                                <li>A4.1.2 Conception ou adaptation de l'interface utilisateur d'une solution applicative</li>
+                                <li>A4.1.3 Conception ou adaptation d'une base de données</li>
+                                <li>A4.1.4 Définition des caractéristiques d'une solution applicative</li>
+                                <li>A4.2.2 Adaptation d'une solution applicative aux évolutions de ses composants</li>
+                                <li>A5.2.4 Etude d'une technologie, d'un composant, d'un outil ou d'une méthode</li>
                             </ul>
                         </div>
                         <div class="modal-footer">
@@ -253,7 +261,9 @@ include('include/start.php');
         <div class="col-lg-4 col-sm-4">
             <div class="grille masque">
                 <figure>
-                    <img class="img-responsive" src="img/Cover.jpg" alt="">
+                    <section class="portfolio">
+                        <a data-toggle="modal" data-target="#myModal_E"><img class="img-responsive" src="img/margo.PNG" alt=""></a>
+                    </section>
                     <figcaption>
                         <a data-toggle="modal" data-target="#myModal_E" class="btn btn-theme">Aperçu</a>
                     </figcaption>
@@ -265,12 +275,43 @@ include('include/start.php');
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title centered" id="myModalLabel">Nom du projet</h4>
+                            <h4 class="modal-title centered" id="myModalLabel">Projet Margo</h4>
                         </div>
                         <div class="modal-body">
-                            <h4 class="centered">Fonction au sein du projet</h4>
-                            <img src="img/Cover.jpg" alt="">
+                            <h4 class="centered">Aperçu du projet</h4>
+                            <img src="img/margo.PNG" alt="Jeu margo">
                             <h5 class="centered">Description du projet</h5>
+                            <p>
+                                Le comité d’entreprise de GSB a initié la création d’une structure d’accueil des enfants de 1 à 12 ans.
+                                Cette structure  baptisée ‘Les Gazouillis’, offre un accueil régulier ou occasionnel voire d’urgence.
+                            </p>
+                            <p>
+                                Afin d'aider les enfants des employés à apprendre à lire et à écrire tout en s'amusant,
+                                le CE  souhaite équiper la structure d’accueil ‘Les gazouillis’ d’un logiciel simple et ludique.
+                            </p>
+                            <p>
+                                Pour répondre à ce besoin, nous avons développé "Margo" qui est un petit jeu de pendu présentant
+                                Margo, une fleur perdant ses pétales à chaque réponse fausse.
+                            </p>
+                            <p>
+                                Par la suite, nous avons ajouté un système de minuterie pensé visuellement pour les enfants.
+                            </p>
+                            <center><img src="img/krustymargo.PNG" alt="Krusty le clown"/></center>
+                            <p>
+                                Activités du référentiel concernées:
+                            </p>
+                            <ul>
+                                <li>A1.1.1 Analyse du cahier des charges d'un service à produire</li>
+                                <li>A1.4.1 Participation à un projet</li>
+                                <li>A1.4.2 Evaluation des indicateurs de suivi d'un projet et justification des écarts</li>
+                                <li>A1.4.3 Gestion des ressources</li>
+                                <li>A2.3.2 Proposition d'amélioration d'un service</li>
+                                <li>A4.1.1 Proposition d'une solution applicative</li>
+                                <li>A4.1.2 Conception ou adaptation de l'interface utilisateur d'une solution applicative</li>
+                                <li>A4.1.3 Conception ou adaptation d'une base de données</li>
+                                <li>A4.1.4 Définition des caractéristiques d'une solution applicative</li>
+                                <li>A5.2.4 Etude d'une technologie, d'un composant, d'un outil ou d'une méthode</li>
+                            </ul>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -338,6 +379,102 @@ include('include/start.php');
             </div><!-- Fin fenêtre modale -->
         </div><!-- Fin premier bloc -->	
     </div><!-- Fin row -->
+    
+    <div class="row">
+        
+        <div class="col-lg-4 col-sm-4">
+            <div class="grille masque">
+                <figure>
+                    <section class="portfolio">
+                        <a data-toggle="modal" data-target="#myModal_Z"><img class="img-responsive" src="img/videotheque.PNG" alt=""></a>
+                    </section>
+                    <figcaption>
+                        <a data-toggle="modal" data-target="#myModal_Z" class="btn btn-theme">Aperçu</a>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal_Z" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title centered" id="myModalLabel">Projet Vidéothèque</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="centered">Aperçu du projet</h4>
+                            <img src="img/gsbfraistab.png" alt="">
+                            <h5 class="centered">Description du projet</h5>
+                            <p>
+                                Réalisation d'une application Windows Forms permettant la saisie d'une liste de films et la consultation des films.
+                            </p>
+                            <center><img src="img/videotheque.PNG"/></center>
+                            <center><img src="img/videotheque2.PNG"/></center>
+                            <center><img src="img/videotheque3.PNG"/></center>
+                            <br/>
+                            Activités du référentiel concernées:<br/>
+                            <ul>
+                                <li>A1.1.1 Analyse du cahier des charges d'un service à produire</li>
+                                <li>A4.1.1 Proposition d'une solution applicative</li>
+                                <li>A4.1.2 Conception ou adaptation de l'interface utilisateur d'une solution applicative</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Fin fenêtre modale -->	
+        </div><!-- Fin septième bloc -->
+        
+         <div class="col-lg-4 col-sm-4">
+            <div class="grille masque">
+                <figure>
+                    <section class="portfolio">
+                        <a data-toggle="modal" data-target="#myModal_Y"><img class="img-responsive" src="img/voitureonline.PNG" alt=""></a>
+                    </section>
+                    <figcaption>
+                        <a data-toggle="modal" data-target="#myModal_Y" class="btn btn-theme">Aperçu</a>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal_Y" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title centered" id="myModalLabel">Projet VoitureOnLine</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="centered">Aperçu du projet</h4>
+                            <img src="img/voitureonline.PNG" alt="">
+                            <h5 class="centered">Description du projet</h5>
+                            <p>
+                                Réalisation d'une application Windows Forms permettant de sélectionner une voiture et d'en choisir les options pour procéder à son achat.
+                            </p>
+                            <br/>
+                            Activités du référentiel concernées:<br/>
+                            <ul>
+                                <li>A1.1.1 Analyse du cahier des charges d'un service à produire</li>
+                                <li>A1.2.4 Détermination des tests nécessaires à la validation d'un service</li>
+                                <li>A4.1.1 Proposition d'une solution applicative</li>
+                                <li>A4.1.2 Conception ou adaptation de l'interface utilisateur d'une solution applicative</li>
+                                <li>A4.1.6 Gestion d'environnements de développement et de test</li>
+                                <li>A4.1.8 Réalisation des tests nécessaires à la validation d'éléments adaptés ou développés</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Fin fenêtre modale -->	
+        </div><!-- Fin huitième bloc -->
+        
+        
+        
+    </div>
 </div><!-- Fin container -->
 
 <?php

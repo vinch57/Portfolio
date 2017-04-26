@@ -19,6 +19,7 @@
         <!-- Custom style -->
         <link href="css/main.css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="favicon.ico" />
 
 
     </head>
